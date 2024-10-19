@@ -1,0 +1,19 @@
+﻿<Window x:Class="ControleStructuren6_Faculteit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControleStructuren6_Faculteit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="27" Margin="129,35,0,0" TextWrapping="Wrap" Text="Getal" VerticalAlignment="Top" Width="94"/>
+        <TextBox x:Name="numberTextbox" HorizontalAlignment="Left" Height="36" Margin="129,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="132,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"><Run Language="nl-be" Text="Resultaat"/><LineBreak/><Run Language="nl-be"/></TextBlock>
+        <TextBox x:Name="resultTextbox" HorizontalAlignment="Left" Height="35" Margin="131,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="106"/>
+        <Button Content="Berekenen" HorizontalAlignment="Center" Height="37" Margin="0,77,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click"/>
+        <Button Content="Wissen" HorizontalAlignment="Left" Height="35" Margin="344,155,0,0" VerticalAlignment="Top" Width="115" Click="Button_Click_1"/>
+        <Button Content="Afsluiten" HorizontalAlignment="Left" Height="35" Margin="345,230,0,0" VerticalAlignment="Top" Width="114" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
